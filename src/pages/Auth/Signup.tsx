@@ -27,7 +27,6 @@ export default function Signup() {
         </CardContent>
       </Card>
       <p className="mt-4 text-xs text-muted-foreground">
-        Note: Connect Supabase to enable real authentication.
       </p>
     </main>
   );
