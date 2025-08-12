@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Leaf, Camera, List, User } from "lucide-react";
+import { Utensils, Camera, List, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto flex h-14 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Leaf className="h-5 w-5 text-primary" aria-hidden="true" />
+          <Utensils className="h-5 w-5 text-primary" aria-hidden="true" />
           <NavLink to="/" className="text-sm font-semibold">
             Servana
           </NavLink>
