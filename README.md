@@ -1,22 +1,20 @@
-# Welcome to your Lovable project
+# Share Fresh Hub
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/68b5b01a-93af-432d-aa9c-457a9150205d
+**Project**: Share Fresh Hub - A modern web application
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/68b5b01a-93af-432d-aa9c-457a9150205d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+To start working with this project, follow the instructions below.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +60,11 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/68b5b01a-93af-432d-aa9c-457a9150205d) and click on Share -> Publish.
+To deploy this project, follow these steps:
 
-## Can I connect a custom domain to my Lovable project?
+1. Build the project: `npm run build`
+2. Deploy the contents of the `dist` folder to your preferred hosting service.
 
-Yes, you can!
+## Custom Domain
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+You can connect a custom domain to your project by configuring it with your hosting provider. The exact steps will depend on the hosting service you choose.

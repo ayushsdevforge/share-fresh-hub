@@ -1,13 +1,12 @@
-import { Toaster } from "@/components/ui/toaster";
+  import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { Suspense, lazy } from "react";
-import { HelmetProvider } from "react-helmet-async";
+import { Suspense, lazy } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/layout/Navbar";
-
 const Index = lazy(() => import("./pages/Index"));
 const Listings = lazy(() => import("./pages/Listings"));
 const Login = lazy(() => import("./pages/Auth/Login"));

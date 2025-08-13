@@ -31,7 +31,7 @@ export default function Listings() {
         <link rel="canonical" href="/listings" />
       </Helmet>
 
-      <h1 className="text-3xl font-bold">Live Photo & AI Recipe Suggestions</h1>
+      <h1 className="text-3xl font-bold ">Live Photo & AI Recipe Suggestions</h1>
 
       <section id="capture" aria-labelledby="add-item" className="grid gap-4 md:grid-cols-2">
         <Card>

@@ -1,13 +1,14 @@
 import { NavLink } from "react-router-dom";
 import { Utensils, Camera, List, User } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
+import { cn } from "../../lib/utils";
 
-const linkCls = ({ isActive }: { isActive: boolean }) =>
-  cn(
+function linkCls({ isActive }: { isActive: boolean; }) {
+  return cn(
     "px-3 py-2 rounded-md text-sm font-medium transition-colors",
     isActive ? "bg-accent text-accent-foreground" : "hover:bg-accent hover:text-accent-foreground"
   );
+}
 
 export default function Navbar() {
   return (

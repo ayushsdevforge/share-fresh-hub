@@ -22,7 +22,6 @@ export default function Profile() {
             Trust rating: <span className="font-semibold">{rating.toFixed(1)} / 5</span>
           </div>
           <p className="text-muted-foreground">Community shares completed: {totalShares}</p>
-          <p className="text-muted-foreground">Connect Supabase to persist and show verified ratings.</p>
         </CardContent>
       </Card>
     </main>
