@@ -11,7 +11,7 @@ export default function Index() {
         <link rel="canonical" href="/" />
       </Helmet>
 
-      <section className="container mx-auto grid min-h-[90vh] place-items-center px-4">
+      <section className="container mx-auto grid min-h-[80vh] place-items-center px-4">
         <div className="max-w-2xl text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             Share Fresh. Build Trust. Reduce Waste.
